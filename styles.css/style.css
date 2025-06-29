@@ -1,50 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    margin:0px;
-    padding:0px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
 }
 
 .nav-header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  width: 100vh;
+  height: 7vh;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+  
+}
+
+.name-title {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+h2 {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
 }
 
 .prof-summary {
-     background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #000;
-
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
 }
 
 .accomplish {
-     background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #000;
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
 }
 
 .skill {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #000;
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
 }
 
 .work-history {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border: 2px solid #000;
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
 }
 
+.work-1 {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.work-2 {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+}
+
+.work-3 {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+}
+.education {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+}
+.nav-footer {
+  display: flex;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #000;
+}
