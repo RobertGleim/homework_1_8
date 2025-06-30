@@ -18,14 +18,35 @@
   <body>
     <header class="sticky-header">
       <nav id="nav-bar" class="nav-header">
-        <div class="name-title"><a href="#"><h1> Robert Gleim</h1></a></div>
         <div class="nav-links">
-          <button class="nav-btn"><a class="link" href="#prof-summary">Professional Summary</a></button>
-          <button class="nav-btn"><a class="link" href="#accomplish">Accomplishments</a></button>
-          <button class="nav-btn"><a class="link" href="#skill">Skills</a></button>
-          <button class="nav-btn"><a class="link" href="#work-history">Work History</a></button>
-          <button class="nav-btn"> <a class="link" href="#education">Education</a></button>
-
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="#prof-summary">Professional Summary</a>
+            </button>
+          </div>
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="#accomplish">Accomplishments</a>
+            </button>
+          </div>
+          <div class="name-title">
+            <a href="#"><h1>Robert Gleim</h1></a>
+          </div>
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="#skill">Skills</a>
+            </button>
+          </div>
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="#work-history">Work History</a>
+            </button>
+          </div>
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="#education">Education</a>
+            </button>
+          </div>
         </div>
       </nav>
     </header>
@@ -54,7 +75,7 @@
 
       <div id="accomplish" class="accomplish">
         <div class="title"><h2>Accomplishments</h2></div>
-        <ul>
+        <ul class="list list-accomplish">
           <li>Graduated from Coding Temple</li>
           <li>Completed multiple projects in HTML, CSS, and JavaScript</li>
           <li>Participated in team coding challenges</li>
@@ -67,25 +88,35 @@
 
       <div id="skill" class="skill">
         <div class="title"><h2>Skills</h2></div>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Responsive Design</li>
-          <li>Version Control (Git)</li>
-          <li>Hydraulic System Maintenance</li>
-          <li>Team Management</li>
-          <li>Critical Thinking in Challenges</li>
-          <li>Comprehensive Policy Deployment</li>
-          <li>Implementation of Safety Procedures</li>
-          <li>Prioritization Skills</li>
-          <li>Efficient Parts Ordering</li>
-          <li>Strategic Decision-Making</li>
-          <li>Efficiency Improvement</li>
-          <li>Team Development</li>
-          <li>Project Planning</li>
-          <li>Workforce Developmen</li>
-        </ul>
+        <div class="skill-comp">
+            
+          <ul class="list skill-comp">
+            <div><h3>Computer skills</h3></div>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+          </ul>
+        </div>
+
+        <div class="skill-mech">
+          <ul class="list list-mech">
+            <div><h3>Maintenace's Skills </h3></div><br>
+            <li>Hydraulic System Maintenance</li>
+            <li>Team Management</li>
+            <li>Critical Thinking in Challenges</li>
+            <li>Comprehensive Policy Deployment</li>
+            <li>Implementation of Safety Procedures</li>
+            <li>Prioritization Skills</li>
+            <li>Efficient Parts Ordering</li>
+            <li>Strategic Decision-Making</li>
+            <li>Efficiency Improvement</li>
+            <li>Team Development</li>
+            <li>Project Planning</li>
+            <li>Workforce Developmen</li>
+          </ul>
+        </div>
       </div>
 
       <div id="work-history" class="work-history">
@@ -119,7 +150,6 @@
 
         <div class="work-3">
           <h3>Maintince Supervisor/ Acting Superintendent</h3>
-
           <p>
             • Working directly with the plant manager and taking over the role
             of superintendent Assisting with payroll and scheduling of all
@@ -138,6 +168,8 @@
             items that will overall make their day go smoother and more
             enjoyable
           </p>
+
+          <h3>Maintenace 1/ Operation</h3>
           <p>
             Apon entering a new location for Lane Enterprises help install new
             equipment which included Unicor 1800 line and Adescor downstream as
@@ -160,13 +192,13 @@
       </div>
 
       <div id="education" class="education">
-        <h2>Education</h2>
-        <ul>
-          <li>
-            Hydraulics and troubleshooting class: 01/2018 Womack Hydraulics -
-            Dallas, TX
-          </li>
-        </ul>
+        <div class="title"><h2>Education</h2></div>
+        
+          
+           <P> Hydraulics and troubleshooting class: Womack Hydraulics -
+            Dallas, TX</P>
+          
+        
       </div>
     </main>
     <footer>
