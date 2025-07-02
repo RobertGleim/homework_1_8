@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css/style.css" />
 
     <title>Robert Gleim</title>
@@ -19,39 +19,53 @@
     <header class="sticky-header">
       <nav id="nav-bar" class="nav-header">
         <div class="nav-links">
-          <div class="site-btn">
-            <button class="nav-btn">
-              <a class="link" href="#prof-summary">Professional Summary</a>
-            </button>
+          <div class="btn_nav_2">
+            <div class="site-btn">
+              <button class="nav-btn">
+                <a class="link" href="#prof-summary">Professional Summary</a>
+              </button>
+            </div>
+            <div class="site-btn">
+              <button class="nav-btn">
+                <a class="link" href="#work-history">Projects</a>
+              </button>
+            </div>
           </div>
+
+          <div class="name-title">
+            <a href="#"><h1>Robert  Gleim</h1></a>
+          </div>
+          <div class="btn_nav_3">
+            <div class="site-btn">
+              <button class="nav-btn">
+                <a class="link" href="#skill">Skills</a>
+              </button>
+            </div>
+            <div class="site-btn">
+              <button class="nav-btn">
+                <a class="link" href="#education">Education</a>
+              </button>
+            </div>
+          
           <div class="site-btn">
             <button class="nav-btn">
               <a class="link" href="#accomplish">Accomplishments</a>
             </button>
           </div>
-          <div class="name-title">
-            <a href="#"><h1>Robert Gleim</h1></a>
-          </div>
-          <div class="site-btn">
-            <button class="nav-btn">
-              <a class="link" href="#skill">Skills</a>
-            </button>
-          </div>
-          <div class="site-btn">
-            <button class="nav-btn">
-              <a class="link" href="#work-history">Work History</a>
-            </button>
-          </div>
-          <div class="site-btn">
-            <button class="nav-btn">
-              <a class="link" href="#education">Education</a>
-            </button>
-          </div>
+        </div>
         </div>
       </nav>
     </header>
 
     <main class="main-content">
+      <div>
+        <img
+          class="profile_img"
+          src="./assets/img_me.jpg"
+          alt="Imgage of Robert Gleim"
+        />
+      </div>
+
       <div id="prof-summary" class="prof-summary">
         <div class="title">
           <h2>Professional Summary</h2>
@@ -89,9 +103,8 @@
       <div id="skill" class="skill">
         <div class="title"><h2>Skills</h2></div>
         <div class="skill-comp">
-            
           <ul class="list skill-comp">
-            <div><h3>Computer skills</h3></div>
+            <div class="skill_title"><h3>Computer skills</h3></div>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -113,7 +126,8 @@
 
         <div class="skill-mech">
           <ul class="list list-mech">
-            <div><h3>Maintenace's Skills </h3></div><br>
+            <div class="mech_title"><h3>Maintenace's Skills</h3></div>
+            <br />
             <li>Hydraulic System Maintenance</li>
             <li>Team Management</li>
             <li>Critical Thinking in Challenges</li>
@@ -131,85 +145,56 @@
       </div>
 
       <div id="work-history" class="work-history">
-        <div class="title"><h2>Work History</h2></div>
-        <div class="work-1">
-          <h3>Maintenance Manager</h3>
-          <p>
-            • Continued to improve on the machinery, finding new parts and
-            upgrading outdated parts Continued to improve upon employee moral by
-            acquiring new products for production improvements, comfort, or
-            safety • • Continued to improve on company policies, safety
-            procedures, startup and shut down procedures • As well as improving
-            on facility maintenance and protocols in an ever-changing
-            environment Created and implemented PM procedures and protocols for
-            all Equipment that increased production and quality
-          </p>
+        <div class="title"><h2>Projects</h2></div>
+         <div id="carouselExampleCaptions" class="carousel slide pointer-event">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" fdprocessedid="7ez3yt"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" fdprocessedid="46zel8"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" fdprocessedid="79r3s"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg aria-label="Placeholder: First slide" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" height="800" preserveAspectRatio="xMidYMid slice" role="img" width="1000" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
         </div>
 
-        <div class="work-2">
-          <h3>Maintenace Supervisor</h3>
-          <p>
-            Promote and help Define roles in the plant like operation leaders,
-            as well and help transition the production supervisor into his new
-            position • Maintained all repairs of facility while consistently
-            looking on ways to improve and implementing any new procedures or
-            products improvements • Overlooked and installed a new production
-            line to run small size pipe, including running water and vacuum
-            pipes from the pump room
-          </p>
+        <div class="carousel-item">
+          <svg aria-label="Placeholder: Second slide" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" height="800" preserveAspectRatio="xMidYMid slice" role="img" width="1000" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
         </div>
 
-        <div class="work-3">
-          <h3>Maintince Supervisor/ Acting Superintendent</h3>
-          <p>
-            • Working directly with the plant manager and taking over the role
-            of superintendent Assisting with payroll and scheduling of all
-            employes including hiring of new employees and letting go employees
-            that no longer fit the Lane family • Took over purchasing of all
-            materials and inventory in the plant from basic office needs to
-            manufacturing operation's needs, while maintaining all safety rules
-            of the company and following OSHA guidelines • Help transition new
-            superintendent into the roll all while making sure maintenance of
-            the facility did not suffer • Procure new vendors and parts to
-            ensure that we limit downtime of production and/or increase
-            productivity time • Created personal connections with vendors so
-            they understood the location needs as well as the company needs •
-            Increased employee morale by acquiring a break room vending system,
-            cold/hot water filter system, increase in lockers, and purchasing
-            items that will overall make their day go smoother and more
-            enjoyable
-          </p>
-
-          <h3>Maintenace 1/ Operation</h3>
-          <p>
-            Apon entering a new location for Lane Enterprises help install new
-            equipment which included Unicor 1800 line and Adescor downstream as
-            well as wiring and creating a zone for the fabrication shop to work
-            and many other machines that relates to plastic production of
-            corrugated pipes • Trained new operators in running the UC1800 line
-            in how to start/stop the machine to make high quality plastic pipe •
-            • Trained new employees on how to properly do a changeover as
-            quickly and efficiently as possible • Created multiple check list
-            and quality sheets to ensure production ran up to company standards
-            Identified any issues with the machines during installation then
-            executed a plan to fix or upgrade the problem • Fixed any issues
-            with the machines or forklifts while maintaining records with
-            maintenance request forms • Learned all aspects of the company
-            including Fabrication dept, Lab dept, and Yard shipping and
-            receiving • Learned importance of blends for the materials and
-            standards of resin to create the highest quality pipe
-          </p>
+        <div class="carousel-item">
+          <svg aria-label="Placeholder: Third slide" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" height="800" preserveAspectRatio="xMidYMid slice" role="img" width="1000px" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
         </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" fdprocessedid="btixvq">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" fdprocessedid="ykebp">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
       </div>
 
       <div id="education" class="education">
         <div class="title"><h2>Education</h2></div>
-        
-          
-           <P> Hydraulics and troubleshooting class: Womack Hydraulics -
-            Dallas, TX</P>
-          
-        
+
+        <p>
+          Hydraulics and troubleshooting class: Womack Hydraulics - Dallas, TX
+        </p>
       </div>
     </main>
     <footer>
@@ -220,4 +205,6 @@
       </nav>
     </footer>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </html>
