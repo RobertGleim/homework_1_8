@@ -111,7 +111,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: ;
+  
   padding: 10px;
   text-align: center;
   background: transparent;
@@ -488,10 +488,120 @@ a:active h1 {
 
 /* -----------------Media Controls----------------- */
 
+
+
+@media (max-width: 1200px) {
+  * {
+    flex-direction: column;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .sticky-header {
+    position: sticky;
+    background: transparent;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nac-btn {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .nav-bar {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .nav-header {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h2 {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h3 {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .btn_nav_2 {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(0px);
+  }
+
+  .profile_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    border-radius: 60%;
+    transform: translatex(48px);
+  }
+}
+
 @media (max-width: 768px) {
   * {
     flex-direction: column;
     font-size: 16px;
+    justify-content: center;
+    align-items: center;
   }
   .sticky-header {
     position: sticky;
@@ -597,110 +707,6 @@ a:active h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-@media (max-width: 1200px) {
-  * {
-    flex-direction: column;
-    font-size: 24px;
-  }
-  .sticky-header {
-    position: sticky;
-    background: transparent;
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .nac-btn {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .nav-links {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-  .nav-bar {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0px;
-  }
-
-  .nav-header {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .link {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .title {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  h1 {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  h2 {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  h3 {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .btn_nav_2 {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    transform: translateX(0px);
-  }
-
-  .profile_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    border-radius: 60%;
-    transform: translatex(48px);
-  }
 }
 
 @media (max-width: 360px) {
