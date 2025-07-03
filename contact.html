@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -10,62 +10,68 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-   
+
     <link rel="stylesheet" href="./styles.css/contactstyle.css" />
     <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" />
     <title>Robert Gleim</title>
   </head>
-<body>
-
+  <body>
     <nav id="nav-bar" class="nav-header">
-        <div class="nav-links">
-          <div class="btn_nav_2">
-            <div class="site-btn">
-              <button class="nav-btn">
-                <a class="link" href="..#prof-summary">Professional Summary</a>
-              </button>
-            </div>
-            <div class="site-btn">
-              <button class="nav-btn">
-                <a class="link" href="..#work-history">Projects</a>
-              </button>
-            </div>
+      <div class="nav-links">
+        <div class="btn_nav_2">
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="..#prof-summary">Professional Summary</a>
+            </button>
           </div>
-
-          <div class="name-title">
-            <a href="./index.html"><h1>Robert Gleim</h1></a>
-          </div>
-          <div class="btn_nav_3">
-            <div class="site-btn">
-              <button class="nav-btn">
-                <a class="link" href="..#skill">Skills</a>
-              </button>
-            </div>
-            <div class="site-btn">
-              <button class="nav-btn">
-                <a class="link" href="..#education">Education</a>
-              </button>
-            </div>
-
-            <div class="site-btn">
-              <button class="nav-btn">
-                <a class="link" href="..#accomplish">Accomplishments</a>
-              </button>
-            </div>
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="..#work-history">Projects</a>
+            </button>
           </div>
         </div>
-      </nav>
-    <div class="form_body"><Form>
-       <legend><h1>Contact Me</h1></legend>
-       
-        
-        
-        <input type="text" id="name" name="name" placeholder="Your Name" required />
-        <input type="email" id="email" name="email" placeholder="Your Email" required />
-        <input type="phone" id="phone" name="phone" placeholder="Your Phone Number" required />
-        <input type="Textarea" id="message" name="message" placeholder="Your Message" required />
-        <button><input type="submit" value="Submit" /></button>
-        <button><input type="reset" value="Reset" /></button>
+
+        <div class="name-title">
+          <a href="./index.html"><h1>Robert Gleim</h1></a>
+        </div>
+        <div class="btn_nav_3">
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="..#skill">Skills</a>
+            </button>
+          </div>
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="..#education">Education</a>
+            </button>
+          </div>
+
+          <div class="site-btn">
+            <button class="nav-btn">
+              <a class="link" href="..#accomplish">Accomplishments</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="form_body">
+      <div class="contact_me"><h2>Enter Your Info</h2></div>
+
+      <form>
+        <div class="name"><label for="name">Your name</label></div>
+        <input type="text" id="name" name="name" placeholder="John Doe" />
+        <div class="email"><label for="email">Enter your Email</label></div>
+        <input type="email" id="email" name="email" placeholder="Youremail@email.com" />
+        <div class="phone"><label for="phone">Enter your phone Number</label></div>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="555-555-5555" required />
+        <div class="textarea"><label for="textarea">Message Me</label></div>
+        <input type="textarea" id="textarea" name="textarea" placeholder="Lets chat"  />
+
+        <div class="action_btn">
+          <button class="submit"><input type="submit" value="Submit" /></button>
+          <button class="reset"><input type="reset" value="Reset" /></button>
+        </div>
 
         <div class="social-link">
           <a href="https://github.com/RobertGleim">
@@ -75,9 +81,7 @@
             <img class="social_img" src="./assets/logo-linkedin.svg" alt=""
           /></a>
         </div>
-           
-    </Form>
-
-</div>
-</body>
+      </form>
+    </div>
+  </body>
 </html>
